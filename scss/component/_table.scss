@@ -1,0 +1,89 @@
+.tables {
+  position: relative;
+
+  .table {
+    font-size: 18px;
+    text-align: center;
+    color: #000;
+  }
+
+  .table> :not(caption)>*>* {
+    padding: 1rem 0.5rem;
+    background-color: #fff;
+  }
+
+  .table th {
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+
+  .table td {
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+
+  &__wrap {
+    background-color: #fff;
+    padding: calc(20px + (30 - 20) * ((100vw - 320px) / (1920 - 320)));
+    padding-left: calc(20px + (120 - 20) * ((100vw - 320px) / (1920 - 320)));
+    padding-right: calc(20px + (120 - 20) * ((100vw - 320px) / (1920 - 320)));
+    padding-bottom: 200px;
+  }
+
+  &__panel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #FFFFFF;
+    border: 6px solid #DAE6F2;
+    z-index: 9;
+    transition: all .5s;
+    transform: translate3d(-150%, 0, 0);
+    visibility: hidden;
+  }
+
+  &__close {
+    position: absolute;
+    top: -35px;
+    background-color: transparent;
+    right: -5px;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    outline: none;
+  }
+
+  &__panel.active {
+    visibility: visible;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+
+.panel {
+  &__item {
+    padding: 30px 5px;
+    border-bottom: 1px solid #dbdbdb;
+    text-align: center;
+    color: #264390;
+
+    &:hover {
+      background-color: #DAE6F2;
+    }
+  }
+
+  &__item a {
+    color: #212529;
+    text-decoration: none;
+
+  }
+
+
+
+  &__title {
+    font-size: 14px;
+    padding-top: 5px;
+  }
+
+
+}

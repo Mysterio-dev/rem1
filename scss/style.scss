@@ -1,0 +1,66 @@
+// header
+@import 'layout/header';
+
+// media query 
+@import 'layout/media';
+
+// text
+@import 'config/text';
+
+// megamenu
+@import './component/megamenu';
+
+//slide
+@import 'component/slide';
+
+// button
+@import 'objects/buttons';
+
+// about
+@import 'component/about';
+
+// features
+@import 'component/features';
+
+// project
+@import './component/project';
+
+// documentation
+@import './layout/documentation';
+
+// news
+@import './component/news';
+
+// product
+@import './component/product';
+
+// tabs
+@import './component/tabs';
+
+
+// table
+@import './component/table';
+
+// footer
+@import './layout/footer';
+
+// modal
+@import './component/modal';
+
+body {
+    font-family: 'Montserrat', sans-serif!important;
+    background: #F7F7F7 !important;
+}
+
+.title__wrap [data-aos="line"].aos-animate {
+	width: 100%;
+}
+
+[data-aos="line"] {
+	width: 0;
+}
+
+
+.content {
+    margin-top: 319px;
+}

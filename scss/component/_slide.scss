@@ -1,0 +1,135 @@
+$dark: #1b193e;
+
+.swiper-main {
+    height: 430px;
+}
+
+.slide {
+    &__desc {
+        max-width: 500px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    &__inner {
+        z-index: 1;
+        position: relative;
+    }
+
+    &__inner .title {
+        color: #fff;
+        font-weight: 700;
+        font-size: 32px;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, .9);
+    }
+
+    &__inner .text {
+        color: #fff;
+    }
+
+    &__overlay {
+        top: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        background: linear-gradient(90deg, #000000b5 25.53%, rgba(218, 230, 242, 0) 97.54%);
+
+    }
+
+    &__brand {
+        position: relative;
+    }
+
+    &__brand .swiper-wrapper {
+        padding: 50px 0;
+    }
+
+    &__brand .swiper-button-prev {
+        left: -100px;
+        color: $dark;
+        width: 100px;
+        height: 85px;
+        border: 5px solid #DAE6F2;
+        top: 50px;
+    }
+
+    &__brand .swiper-button-next {
+        right: -100px;
+        color: $dark;
+        width: 100px;
+        height: 85px;
+        border: 5px solid #DAE6F2;
+        top: 50px;
+    }
+
+    &__brand .swiper-button-prev::after {
+        content: '';
+        background: url('../assets/svg/left-arrows.svg') no-repeat;
+        background-size: contain;
+        width: 73px;
+        height: 27px;
+        display: block;
+    }
+
+    &__brand .swiper-button-next::after {
+        content: '';
+        background: url('../assets/svg/right-arrows.svg') no-repeat;
+        background-size: contain;
+        width: 73px;
+        height: 27px;
+        display: block;
+    }
+
+
+
+
+
+
+}
+
+
+
+.swiper-main .swiper-button-next,
+.swiper-main .swiper-button-prev {
+    bottom: 0;
+    width: 60px;
+    height: 60px;
+    background: #222133;
+    opacity: .75;
+}
+
+.swiper-main .swiper-button-next:hover,
+.swiper-main .swiper-button-prev:hover {
+    opacity: 1;
+}
+
+.swiper-main .swiper-button-next {
+    top: inherit;
+    bottom: 10px;
+}
+
+.swiper-main .swiper-button-prev {
+    top: inherit;
+    left: inherit;
+    right: 70px;
+    bottom: 10px;
+}
+
+.swiper-main .swiper-button-next::after,
+.swiper-main .swiper-button-prev::after {
+    font-size: 20px;
+    color: #fff;
+}
+
+.swiper-main .swiper-button-prev::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 15px;
+    bottom: 15px;
+    right: -1px;
+    width: 2px;
+    background: rgba(255, 255, 255, .15);
+}

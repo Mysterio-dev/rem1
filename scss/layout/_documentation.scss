@@ -1,0 +1,65 @@
+.documentation {
+    .breadcrumb-item a {
+        color: #1b193e;
+    }
+    
+    &__wrap {
+        padding: 50px 0 45px;
+    }
+
+    &__inner {
+        border: 14px solid #DAE6F2;
+        padding: calc(20px + (45 - 20) * ((100vw - 320px) / (1920 - 320)));
+        max-width: 300px;
+        width: 100%;
+    }
+
+    &__inner .documents__item {
+        margin-bottom: 20px;
+        margin-right: 0;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+  
+    
+}
+
+.doc {
+    &__wrap {
+        background-color: #F6F6F6;
+        padding: 50px 0
+    }
+
+    &__list {
+        padding: 0 50px;
+    }
+
+    &__list ul { 
+        padding-left: 0;
+    }
+
+    &__list li {
+        list-style: none;
+        margin-bottom: 30px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__item a {
+        text-decoration: none;
+        color: #212529;
+    }
+
+    &__item {
+        position: relative;
+        padding-left: 60px;
+    }
+
+    &__item svg {
+        position: absolute;
+        left: 0;
+    }
+}

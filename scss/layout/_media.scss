@@ -1,0 +1,161 @@
+
+@media (min-width: 0px) and (max-width: 991px) {
+    body {
+        margin-top: 56px!important;
+    }
+}
+
+
+
+@media (min-width: 991px) {
+
+    .accordion {
+        display: none;
+    }
+
+    .header__navbar li:hover .dropdown-menu {
+        display: block;
+    }
+
+    
+    .header__navbar .dropdown-menu > li > a:hover:after {
+        text-decoration: underline;
+       
+    } 
+
+    .header__contacts {
+        justify-content: space-between;
+    }
+    
+    body {
+        margin-top: 206px!important;
+    }
+    
+    
+}
+@media (max-width: 536px) {
+    .footer__phone,
+    .footer__mail {
+        padding-top: 15px;
+    }
+}
+
+@media (min-width: 991px) {
+    .project__block {
+        border-left: 1px solid #dee2e6;
+    }
+
+
+}
+
+@media (max-width: 575px) {
+
+    .project__wrap .project__item img {
+        max-width: 100px;
+    }
+
+    .project__wrap .project__list-wrap {
+        margin-left: 20px;
+    }
+
+    .products {
+        flex-direction: column;
+    }
+}
+@media (max-width: 1500px) {
+    .slide__brand .swiper-button-next,
+    .slide__brand .swiper-button-prev {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .content .tabs-modif {
+        justify-content: start;
+        margin: 20px 0;
+    }
+
+    .content .product-view__block-layer {
+        justify-content: start;
+    }
+
+    body .content {
+        margin-top: 0;
+    }
+
+    .swiper-main .swiper-button-next,
+    .swiper-main .swiper-button-prev {
+        display: none;
+    }
+
+    .header__contacts {
+        flex-wrap: wrap;
+        padding: 5px 0;
+    }
+
+    .header__inner {
+        margin-top: 10px;
+    }
+
+    .header .header__navbar .navbar-brand {
+        display: block;
+    } 
+
+    .megamenu {
+        display: none;
+    }
+
+    .header__logo {
+        display: none;
+    }
+}
+
+@media (max-width: 1399px) {
+    .tables__panel {
+        display: none;
+    }
+}
+
+@media (max-width: 1030px) {
+    .footer__social-wrap {
+        padding: 20px 0 0;
+    }
+}
+
+
+
+@media (max-width: 1199px) {
+
+    .tabs-modif {
+        width: 1200px;
+    }
+
+    .tab-product {
+        width: 1176px;
+    }
+    .make__inner {
+        flex-direction: column;
+    }
+
+    .make__brand {
+        padding-bottom: 20px;
+    }
+
+    .make .make__desc {
+        max-width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .header__social {
+        display: none;
+    }
+
+    .header .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 0;
+    }
+} 
+
+
+
+

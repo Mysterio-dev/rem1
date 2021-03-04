@@ -1,0 +1,21 @@
+.modal {
+    &__scroll {
+        .modal-dialog {
+            margin: 0.5rem 0;
+            margin-left: auto;
+            height: calc(100% - 1rem);
+        }
+
+        .modal-content {
+            border-radius: 0;
+            border: 5px solid #EEF3F8;
+        }
+    }
+
+    &__feedback {
+        .modal-content {
+            border-radius: 0;
+            border: 5px solid #EEF3F8;
+        }
+    }
+}

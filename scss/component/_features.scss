@@ -1,0 +1,21 @@
+.features {
+        margin-top: calc(50px + (100 - 20) * ((100vw - 320px) / (1920 - 320)));
+        margin-bottom: calc(50px + (100 - 20) * ((100vw - 320px) / (1920 - 320)));
+    
+    &__item {
+        position: relative;
+    }
+
+    &__item svg {
+        position: absolute;
+        left: 0;
+    }
+
+    &__item-inner {
+        padding-left: 70px;
+    }
+
+    &__item-inner .text {
+        color: #A8A7A7;
+    }
+}

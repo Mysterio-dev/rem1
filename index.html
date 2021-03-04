@@ -1,0 +1,1244 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>РемГазКоммуникации</title>
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+  <link rel="mask-icon" href="assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="assets/lib/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/lib/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+  <header class="header fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light header__navbar">
+      <div class="container-xxl">
+        <a class="navbar-brand" href="#">
+          <img src="assets/images/logo-01.png" alt="">
+          РемГазКоммуникации</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarText">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                О компании
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">О компании</a></li>
+                <li><a class="dropdown-item" href="#">Логистика</a></li>
+                <li><a class="dropdown-item" href="#">Реквизиты</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Качество</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="documentation.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Документация
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Каталог</a></li>
+                <li><a class="dropdown-item" href="#">Прайс-лист</a></li>
+                <li><a class="dropdown-item" href="#">Сертификаты</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Тех.документация</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Контакты</a>
+            </li>
+          </ul>
+            <!-- Каталог меню для моб -->
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading1">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                  <span>
+
+                    <svg class="nav-icons" version="1.1" xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
+                      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" fill="currentColor">
+          
+                      <path d="M6.979,271.181c30.288,25.979,64.616,55.426,131.017,55.426c66.403-0.001,100.733-29.447,131.022-55.426
+               c28.644-24.568,53.382-45.787,104.98-45.787c51.599,0,76.337,21.219,104.98,45.787c8.385,7.191,21.011,6.225,28.202-2.159
+               c7.191-8.385,6.225-21.011-2.16-28.202c-30.289-25.979-64.619-55.426-131.022-55.426S273.265,214.84,242.976,240.82
+               c-28.644,24.568-53.382,45.787-104.98,45.787c-51.597,0-76.332-21.218-104.974-45.787c-8.384-7.191-21.01-6.226-28.202,2.159
+               C-2.372,251.363-1.405,263.99,6.979,271.181z" />
+                      <path d="M6.979,161.787c30.287,25.98,64.615,55.426,131.017,55.426c66.403,0,100.733-29.446,131.022-55.426
+               C297.662,137.219,322.399,116,373.998,116c51.597,0,76.335,21.218,104.98,45.787c8.385,7.193,21.01,6.224,28.201-2.161
+               c7.192-8.384,6.223-21.012-2.161-28.202C474.729,105.444,440.399,76,373.998,76c-66.403,0-100.733,29.446-131.022,55.426
+               c-28.644,24.568-53.382,45.787-104.98,45.787c-51.596,0-76.332-21.218-104.974-45.787c-8.384-7.192-21.011-6.226-28.202,2.159
+               C-2.372,141.969-1.405,154.596,6.979,161.787z" />
+                      <path d="M505.02,350.213c-30.289-25.979-64.619-55.426-131.022-55.426s-100.733,29.446-131.022,55.426
+               C214.332,374.781,189.594,396,137.996,396c-51.594,0-76.331-21.218-104.973-45.785l-0.002-0.002
+               c-8.384-7.189-21.009-6.223-28.201,2.16c-7.191,8.384-6.224,21.011,2.16,28.202C37.268,406.555,71.597,436,137.996,436
+               c66.403,0,100.733-29.446,131.022-55.426c28.644-24.568,53.382-45.787,104.98-45.787c51.599,0,76.337,21.219,104.98,45.787
+               c8.385,7.191,21.011,6.225,28.202-2.159C514.371,370.03,513.405,357.404,505.02,350.213z" />
+          
+                    </svg>
+          
+                    Вода
+                  </span>
+                </button>
+              </h2>
+              <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <li><a href="">Трубы из сшитого полиэтилена</a></li>
+                  <li><a href="">Трубы из сшитого полиэтилена</a></li>
+                  <li><a href="">Трубы из сшитого полиэтилена</a></li>
+                  <li><a href="">Трубы из сшитого полиэтилена</a></li>
+      
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                  <span><svg 
+                    xmlns="http://www.w3.org/2000/svg" fill="currentColor" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="20" height="20" x="0" y="0"
+                    viewBox="0 0 16.587 16.587" style="enable-background:new 0 0 512 512" xml:space="preserve" class="nav-icons">
+                    <g>
+        
+                      <path style=""
+                        d="M8.308,0c0,0-0.267,3.595-2.769,6.146c-2.223,1.81-2.579,2.772-2.717,4.137   c-0.139,1.371,0.012,4.021,2.515,5.829c0,0-0.9-2.2,1.317-4.007c2.114-1.723,1.853-2.947,1.821-3.06   c0.026,0.096,0.527,1.895,1.624,2.918c1.125,1.049,0.96,2.904-0.104,4.624c0,0,3.46-2.237,3.767-5.236   C14.258,6.468,9.918,0.793,8.308,0z"
+                        data-original="#030104" class="" />
+        
+                  </svg>
+        
+                  Газ
+                </span>
+                </button>
+              </h2>
+              <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <li><a href="">Трубы из сшитого полиэтилена</a></li>
+                  <li><a href="">Трубы из сшитого полиэтилена</a></li>
+                  <li><a href="">Трубы из сшитого полиэтилена</a></li>
+                  <li><a href="">Трубы из сшитого полиэтилена</a></li>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                  <span>
+                    <svg class="nav-icons" enable-background="new 0 0 511.999 511.999" fill="currentcolor" height="20" viewBox="0 0 511.999 511.999"
+                      width="20" xmlns="http://www.w3.org/2000/svg">
+                      <g>
+                        <path
+                          d="m389.053 7.603c-2.666-4.703-7.647-7.603-13.052-7.603h-180c-6.885 0-12.876 4.688-14.546 11.367l-60 241c-1.128 4.482-.117 9.229 2.725 12.861 2.842 3.647 7.207 5.771 11.821 5.771h68.35l-82.397 220.727c-2.637 7.031.337 14.927 6.943 18.486 6.636 3.556 14.846 1.653 19.233-4.395l240-331c3.325-4.556 3.794-10.591 1.245-15.63-2.563-5.024-7.734-8.188-13.374-8.188h-63.501l76.362-128.28c2.784-4.643 2.857-10.414.191-15.116z" />
+                      </g>
+                    </svg>
+                    Энергетика
+                  </span>
+                </button>
+              </h2>
+              <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <li><a href="">Трубы из сшитого полиэтилена</a></li>
+                  <li><a href="">Трубы из сшитого полиэтилена</a></li>
+                  <li><a href="">Трубы из сшитого полиэтилена</a></li>
+                  <li><a href="">Трубы из сшитого полиэтилена</a></li>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading4">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                  <span>
+                    <svg class="nav-icons" height="20px" viewBox="0 -43 512.001 512" fill="currentColor" width="20px"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="m224.804688 294.34375c-10.726563-8.011719-24.074219-17.980469-49.144532-17.980469-25.066406 0-38.414062 9.96875-49.140625 17.980469-9.339843 6.976562-16.089843 12.019531-31.191406 12.019531-15.097656 0-21.847656-5.042969-31.1875-12.019531-10.726563-8.011719-24.074219-17.984375-49.140625-17.984375-8.285156 0-15 6.71875-15 15 0 8.285156 6.714844 15 15 15 15.097656 0 21.847656 5.042969 31.1875 12.019531 10.726562 8.011719 24.078125 17.980469 49.144531 17.980469 25.066407 0 38.414063-9.96875 49.140625-17.980469 9.339844-6.976562 16.089844-12.019531 31.1875-12.019531 15.101563 0 21.851563 5.042969 31.191406 12.019531 10.726563 8.011719 24.074219 17.980469 49.140626 17.980469 4.675781 0 8.945312-.347656 12.863281-.960937.378906.027343.757812.054687 1.144531.054687 2.683594 0 5.195312-.710937 7.375-1.945313 12.238281-3.542968 20.589844-9.773437 27.761719-15.128906 9.339843-6.976562 16.089843-12.019531 31.1875-12.019531 15.101562 0 21.851562 5.042969 31.195312 12.019531 9.769531 7.296875 21.71875 16.214844 42.707031 17.75.902344.167969 1.824219.265625 2.773438.265625.433594 0 .855469-.027343 1.28125-.0625.78125.019531 1.574219.03125 2.382812.03125 25.066407 0 38.417969-9.972656 49.144532-17.984375 9.339844-6.976562 16.089844-12.015625 31.191406-12.015625 8.285156 0 15-6.71875 15-15 0-8.285156-6.714844-15-15-15-25.066406 0-38.417969 9.96875-49.144531 17.980469-6.617188 4.941406-11.949219 8.902344-19.855469 10.796875v-31.777344c0-63.308593-24.652344-122.824219-69.414062-167.585937-44.765626-44.765625-104.28125-69.417969-167.585938-69.417969h-17.539062v-21.359375c0-8.285156-6.714844-15-15-15h-39.089844c-20.214844 0-37.355469 13.398438-43.015625 31.78125h-61.007813c-8.285156 0-15 6.71875-15 15 0 8.285156 6.714844 15 15 15h59.023438v97.128906h-59.023438c-8.285156 0-15 6.71875-15 15 0 8.285156 6.714844 15 15 15h61.007813c5.660156 18.382813 22.800781 31.785156 43.015625 31.785156h39.089844c8.285156 0 15-6.71875 15-15v-23.097656c17.34375 2.769532 34.53125 10.121094 47.988281 20.851563 22.261719 17.753906 33.550781 43.125 33.550781 75.410156v27.480469c-14.390625-.222656-21.066406-5.179688-30.195312-11.996094zm-81.34375-103.648438h-24.089844c-8.269532 0-15-6.730468-15-15v-130.695312c0-8.269531 6.730468-15 15-15h24.089844zm96.6875-10.703124c-18.59375-14.824219-42.695313-24.710938-66.6875-27.6875v-85.945313h17.539062c114.140625 0 207 92.859375 207 207v29.171875c-4.351562-2.097656-8.160156-4.925781-12.527344-8.1875-10.730468-8.011719-24.078125-17.984375-49.148437-17.984375-25.066407 0-38.414063 9.972656-49.140625 17.984375-.746094.554688-1.46875 1.09375-2.183594 1.621094v-17.105469c0-52.160156-24.390625-82.554687-44.851562-98.867187zm0 0" />
+                      <path
+                        d="m497 366.359375c-25.066406 0-38.417969 9.972656-49.144531 17.980469-9.339844 6.980468-16.089844 12.019531-31.191407 12.019531-15.101562 0-21.851562-5.039063-31.191406-12.015625-10.730468-8.011719-24.078125-17.984375-49.148437-17.984375-25.066407 0-38.414063 9.972656-49.140625 17.984375-9.339844 6.976562-16.089844 12.015625-31.191406 12.015625-15.097657 0-21.847657-5.039063-31.1875-12.015625-10.726563-8.011719-24.074219-17.984375-49.144532-17.984375-25.066406 0-38.414062 9.972656-49.140625 17.984375-9.339843 6.976562-16.089843 12.015625-31.191406 12.015625-15.097656 0-21.847656-5.039063-31.1875-12.015625-10.726563-8.011719-24.074219-17.984375-49.140625-17.984375-8.285156 0-15 6.71875-15 15 0 8.285156 6.714844 15 15 15 15.097656 0 21.847656 5.042969 31.1875 12.019531 10.726562 8.011719 24.078125 17.980469 49.144531 17.980469 25.066407 0 38.414063-9.96875 49.140625-17.980469 9.339844-6.976562 16.089844-12.019531 31.1875-12.019531 15.101563 0 21.851563 5.042969 31.191406 12.019531 10.726563 8.011719 24.074219 17.980469 49.140626 17.980469 25.066406 0 38.417968-9.96875 49.144531-17.980469 9.339843-6.976562 16.089843-12.019531 31.1875-12.019531 15.101562 0 21.851562 5.042969 31.195312 12.019531 10.726563 8.011719 24.074219 17.980469 49.144531 17.980469 25.066407 0 38.414063-9.96875 49.144532-17.980469 9.339844-6.976562 16.089844-12.019531 31.191406-12.019531 8.285156 0 15-6.714844 15-15 0-8.28125-6.714844-15-15-15zm0 0" />
+                    </svg>
+                    Канализация
+                  </span>
+                </button>
+              </h2>
+              <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <li><a href="">Трубы из сшитого полиэтилена</a></li>
+                  <li><a href="">Трубы из сшитого полиэтилена</a></li>
+                  <li><a href="">Трубы из сшитого полиэтилена</a></li>
+                  <li><a href="">Трубы из сшитого полиэтилена</a></li>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading5">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                  <span>
+                    <svg class="nav-icons" fill="currentColor" enable-background="new 0 0 512.027 512.027" height="20" viewBox="0 0 512.027 512.027"
+                      width="20" xmlns="http://www.w3.org/2000/svg">
+                      <g>
+                        <path
+                          d="m511.485 342.829c-8.76-53.206-30.558-126.731-83.905-194.233l34.203-34.203c2.813-2.812 4.394-6.628 4.394-10.606s-1.58-7.794-4.394-10.606l-42.935-42.935c-2.812-2.813-6.628-4.394-10.606-4.394s-7.794 1.58-10.606 4.394l-34.203 34.203c-67.502-53.348-141.027-75.146-194.234-83.906-18.073-2.982-34.685 6.51-41.33 23.604-6.663 17.138-.807 35.397 14.571 45.438 45.088 29.438 89.382 64.24 132.119 103.736l-261.341 261.343c-8.523 8.522-13.217 19.854-13.217 31.907s4.694 23.385 13.225 31.916l.323.323c8.523 8.523 19.855 13.217 31.908 13.217s23.385-4.693 31.908-13.217l261.342-261.341c39.495 42.737 74.297 87.031 103.736 132.119 7.277 11.147 18.872 17.29 31.229 17.29 4.691 0 9.493-.886 14.209-2.719 17.094-6.646 26.579-23.255 23.604-41.33zm-34.475 13.368c-1.794.699-6.307 1.803-9.448-3.01-38.153-58.437-84.945-115.513-139.077-169.644-54.133-54.132-111.209-100.924-169.643-139.077-4.812-3.142-3.708-7.654-3.011-9.448.764-1.965 2.631-5.013 6.863-5.013.509 0 1.053.044 1.632.14 57.957 9.542 141.754 35.628 211.841 105.716 70.088 70.087 96.174 153.885 105.716 211.841.889 5.398-2.672 7.639-4.873 8.495zm-68.769-274.132 21.722 21.722-21.937 21.937c-3.441-3.722-6.986-7.416-10.646-11.076s-7.354-7.205-11.076-10.646zm-250.239 293.683-21.722-21.721 100.224-100.224 21.722 21.721zm-101.85 101.849c-2.857 2.856-6.655 4.43-10.695 4.43s-7.838-1.573-10.703-4.438l-.323-.323c-2.857-2.856-4.43-6.655-4.43-10.695s1.573-7.838 4.43-10.694l80.637-80.637 21.722 21.721zm223.286-223.286-21.722-21.721 38.618-38.618c3.658 3.563 7.306 7.152 10.937 10.784s7.221 7.28 10.784 10.938z" />
+                      </g>
+                    </svg>
+                    Добыча
+                  </span>
+                </button>
+              </h2>
+              <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <li><a href="">Трубы из сшитого полиэтилена</a></li>
+                  <li><a href="">Трубы из сшитого полиэтилена</a></li>
+                  <li><a href="">Трубы из сшитого полиэтилена</a></li>
+                  <li><a href="">Трубы из сшитого полиэтилена</a></li>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Конец -->
+          
+          <div class="header__contacts">
+            <div class="header__phone">
+              <div class="header__wrap-icons">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor"
+                  class="bi bi-telephone" viewBox="0 0 16 16">
+                  <path
+                    d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                </svg>
+              </div>
+              <a href="tel:+78435900700" class="phone"> +7 (843) 590-07-00 </a>
+            </div>
+            <div class="header__mail">
+              <div class="header__wrap-icons">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-envelope" viewBox="0 0 16 16">
+                  <path
+                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
+                </svg>
+              </div>
+              <a href="mailto:info@rem-gas.ru" class="mail">info@rem-gas.ru</a>
+            </div>
+
+          </div>
+          <div class="header__inner">
+            <div class="header__social">
+              <a href="" class="header__social-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-instagram" viewBox="0 0 16 16">
+                  <path
+                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                </svg>
+              </a>
+              <a href="" class="header__social-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.122C.002 7.343.01 6.6.064 5.78l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                </svg>
+              </a>
+
+            </div>
+            <button class="btn btn-request">Оставить заявку</button>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+
+    <div class="header__wrappers">
+    <div class="header__logo">
+      <img src="assets/images/logo-01.png" alt="">
+      <span>РемГазКоммуникации</span>
+    </div>
+    <nav class="megamenu">
+      <ul class="megamenu-nav d-flex justify-content-center" role="menu">
+        <li class="nav-item is-parent">
+          <a class="nav-link" href="documentation.html" id="megamenu-dropdown-1" aria-haspopup="true" aria-expanded="false">
+  
+            <svg class="nav-icons" version="1.1" xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
+              xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" fill="currentColor">
+  
+              <path d="M6.979,271.181c30.288,25.979,64.616,55.426,131.017,55.426c66.403-0.001,100.733-29.447,131.022-55.426
+       c28.644-24.568,53.382-45.787,104.98-45.787c51.599,0,76.337,21.219,104.98,45.787c8.385,7.191,21.011,6.225,28.202-2.159
+       c7.191-8.385,6.225-21.011-2.16-28.202c-30.289-25.979-64.619-55.426-131.022-55.426S273.265,214.84,242.976,240.82
+       c-28.644,24.568-53.382,45.787-104.98,45.787c-51.597,0-76.332-21.218-104.974-45.787c-8.384-7.191-21.01-6.226-28.202,2.159
+       C-2.372,251.363-1.405,263.99,6.979,271.181z" />
+              <path d="M6.979,161.787c30.287,25.98,64.615,55.426,131.017,55.426c66.403,0,100.733-29.446,131.022-55.426
+       C297.662,137.219,322.399,116,373.998,116c51.597,0,76.335,21.218,104.98,45.787c8.385,7.193,21.01,6.224,28.201-2.161
+       c7.192-8.384,6.223-21.012-2.161-28.202C474.729,105.444,440.399,76,373.998,76c-66.403,0-100.733,29.446-131.022,55.426
+       c-28.644,24.568-53.382,45.787-104.98,45.787c-51.596,0-76.332-21.218-104.974-45.787c-8.384-7.192-21.011-6.226-28.202,2.159
+       C-2.372,141.969-1.405,154.596,6.979,161.787z" />
+              <path d="M505.02,350.213c-30.289-25.979-64.619-55.426-131.022-55.426s-100.733,29.446-131.022,55.426
+       C214.332,374.781,189.594,396,137.996,396c-51.594,0-76.331-21.218-104.973-45.785l-0.002-0.002
+       c-8.384-7.189-21.009-6.223-28.201,2.16c-7.191,8.384-6.224,21.011,2.16,28.202C37.268,406.555,71.597,436,137.996,436
+       c66.403,0,100.733-29.446,131.022-55.426c28.644-24.568,53.382-45.787,104.98-45.787c51.599,0,76.337,21.219,104.98,45.787
+       c8.385,7.191,21.011,6.225,28.202-2.159C514.371,370.03,513.405,357.404,505.02,350.213z" />
+  
+            </svg>
+  
+            Вода
+          </a>
+          <div class="megamenu-content" aria-labelledby="megamenu-dropdown-1">
+            <div class="container-xxl pt-3">
+              <div class="row">
+                <div class="col border-end">
+                  <div class="card h-100">
+                    <img src="assets/images/product/03.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <a href="products.html">Трубы из сшитого полиэтилена</a>
+                        </h5>
+                      <p class="card-text">Трубопровод из сшитого полиэтилена, или, как его называют, PEX-труба,
+                        представляет собой практически монолитную конструкцию, основным материалом которой является
+                        молекулярно-сшитый полиэтилена</p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="" class="btn__details">
+                        Подробнее
+                        <svg width="37" height="12" viewBox="0 0 37 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0 11.5H34.5L19 0.5" stroke="#737373"/>
+                          </svg>
+                          
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col border-end">
+                  <div class="card h-100">
+                    <img src="assets/images/product/03.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <a href="products.html">Трубы из сшитого полиэтилена</a>
+                        </h5>
+                      <p class="card-text">Трубопровод из сшитого полиэтилена, или, как его называют, PEX-труба,
+                        представляет собой практически монолитную конструкцию, основным материалом которой является
+                        молекулярно-сшитый полиэтилена</p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="" class="btn__details">
+                        Подробнее
+                        <svg width="37" height="12" viewBox="0 0 37 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0 11.5H34.5L19 0.5" stroke="#737373"/>
+                          </svg>
+                          
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col border-end">
+                  <div class="card h-100">
+                    <img src="assets/images/product/02.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <a href="">Металлопластиковые трубы</a>
+                        </h5>
+                      <p class="card-text">Металлополимерные трубы — это композитные трубы, состоящие из двух или более
+                        компонентов: полимерная труба, армированная сварным сетчатым металлическим каркасом или, например,
+                        алюминиевой фольгой</p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="" class="btn__details">
+                        Подробнее
+                        <svg width="37" height="12" viewBox="0 0 37 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0 11.5H34.5L19 0.5" stroke="#737373"/>
+                          </svg>
+                          
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col border-end">
+                  <div class="card h-100">
+                    <img src="assets/images/product/01.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <a href="">Трубы ПНД</a>
+                        </h5>
+                      <p class="card-text">Трубы ПНД – это современные пластиковые трубы, которые изготавливаются из
+                        полиэтилена низкого давления (ПНД), произведенного промышленным методом полимеризации этилена при
+                        низком давлении. Сырьем для производства служит полиэтилен марок ПЭ63, ПЭ80 и ПЭ100.</p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="" class="btn__details">
+                        Подробнее
+                        <svg width="37" height="12" viewBox="0 0 37 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0 11.5H34.5L19 0.5" stroke="#737373"/>
+                          </svg>                        
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="assets/images/product/04.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <a href="">Полипропиленовые трубы</a>
+                        </h5>
+                      <p class="card-text">Полимерные трубы — цилиндрическое изделие, изготовленное из полимерного
+                        материала, полое внутри, имеющее длину, значительно превосходящую диаметр. Область применения
+                        полимерных труб крайне широка.</p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="" class="btn__details">
+                        Подробнее
+                        <svg width="37" height="12" viewBox="0 0 37 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0 11.5H34.5L19 0.5" stroke="#737373"/>
+                          </svg>
+                          
+                      </a>
+                    </div>
+                  </div>
+                </div>
+  
+              </div>
+  
+  
+            </div>
+          </div>
+        </li>
+        <li class="nav-item is-parent">
+          <a class="nav-link" href="#" id="megamenu-dropdown-2" aria-haspopup="true" aria-expanded="false"><svg 
+              xmlns="http://www.w3.org/2000/svg" fill="currentColor" xmlns:xlink="http://www.w3.org/1999/xlink"
+              xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="20" height="20" x="0" y="0"
+              viewBox="0 0 16.587 16.587" style="enable-background:new 0 0 512 512" xml:space="preserve" class="nav-icons">
+              <g>
+  
+                <path style=""
+                  d="M8.308,0c0,0-0.267,3.595-2.769,6.146c-2.223,1.81-2.579,2.772-2.717,4.137   c-0.139,1.371,0.012,4.021,2.515,5.829c0,0-0.9-2.2,1.317-4.007c2.114-1.723,1.853-2.947,1.821-3.06   c0.026,0.096,0.527,1.895,1.624,2.918c1.125,1.049,0.96,2.904-0.104,4.624c0,0,3.46-2.237,3.767-5.236   C14.258,6.468,9.918,0.793,8.308,0z"
+                  data-original="#030104" class="" />
+  
+            </svg>
+  
+            Газ
+          </a>
+          <div class="megamenu-content" aria-labelledby="megamenu-dropdown-2">
+            <div class="container-xxl pt-3">
+              <div class="row">
+                <div class="col border-end">
+                  <div class="card h-100">
+                    <img src="assets/images/product/05.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <a href="">Трубы из сшитого полиэтилена</a>
+                        </h5>
+                      <p class="card-text">Трубопровод из сшитого полиэтилена, или, как его называют, PEX-труба,
+                        представляет собой практически монолитную конструкцию, основным материалом которой является
+                        молекулярно-сшитый полиэтилена</p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="" class="btn__details">
+                        Подробнее
+                        <svg width="37" height="12" viewBox="0 0 37 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0 11.5H34.5L19 0.5" stroke="#737373"/>
+                          </svg>                        
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col border-end">
+                  <div class="card h-100">
+                    <img src="assets/images/product/05.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <a href="">Трубы из сшитого полиэтилена</a>
+                        </h5>
+                      <p class="card-text">Трубопровод из сшитого полиэтилена, или, как его называют, PEX-труба,
+                        представляет собой практически монолитную конструкцию, основным материалом которой является
+                        молекулярно-сшитый полиэтилена</p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="" class="btn__details">
+                        Подробнее
+                        <svg width="37" height="12" viewBox="0 0 37 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0 11.5H34.5L19 0.5" stroke="#737373"/>
+                          </svg>                        
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col border-end">
+                  <div class="card h-100">
+                    <img src="assets/images/product/06.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <a href="">Металлопластиковые трубы</a>
+                        </h5>
+                      <p class="card-text">Металлополимерные трубы — это композитные трубы, состоящие из двух или более
+                        компонентов: полимерная труба, армированная сварным сетчатым металлическим каркасом или, например,
+                        алюминиевой фольгой</p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="" class="btn__details">
+                        Подробнее
+                        <svg width="37" height="12" viewBox="0 0 37 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0 11.5H34.5L19 0.5" stroke="#737373"/>
+                          </svg>
+                          
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col border-end">
+                  <div class="card h-100">
+                    <img src="assets/images/product/07.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <a href="">Трубы ПНД</a>
+                        </h5>
+                      <p class="card-text">Трубы ПНД – это современные пластиковые трубы, которые изготавливаются из
+                        полиэтилена низкого давления (ПНД), произведенного промышленным методом полимеризации этилена при
+                        низком давлении. Сырьем для производства служит полиэтилен марок ПЭ63, ПЭ80 и ПЭ100.</p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="" class="btn__details">
+                        Подробнее
+                        <svg width="37" height="12" viewBox="0 0 37 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0 11.5H34.5L19 0.5" stroke="#737373"/>
+                          </svg>
+                          
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="assets/images/product/08.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <a href="">Полипропиленовые трубы</a>
+                        </h5>
+                      <p class="card-text">Полимерные трубы — цилиндрическое изделие, изготовленное из полимерного
+                        материала, полое внутри, имеющее длину, значительно превосходящую диаметр. Область применения
+                        полимерных труб крайне широка.</p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="" class="btn__details">
+                        Подробнее
+                        <svg width="37" height="12" viewBox="0 0 37 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0 11.5H34.5L19 0.5" stroke="#737373"/>
+                          </svg>
+                          
+                      </a>
+                    </div>
+                  </div>
+                </div>
+  
+              </div>
+  
+  
+            </div>
+          </div>
+        </li>
+        <li class="nav-item is-parent">
+          <a class="nav-link" href="#" id="megamenu-dropdown-3" aria-haspopup="true" aria-expanded="false">
+            <svg class="nav-icons" enable-background="new 0 0 511.999 511.999" fill="currentcolor" height="20" viewBox="0 0 511.999 511.999"
+              width="20" xmlns="http://www.w3.org/2000/svg">
+              <g>
+                <path
+                  d="m389.053 7.603c-2.666-4.703-7.647-7.603-13.052-7.603h-180c-6.885 0-12.876 4.688-14.546 11.367l-60 241c-1.128 4.482-.117 9.229 2.725 12.861 2.842 3.647 7.207 5.771 11.821 5.771h68.35l-82.397 220.727c-2.637 7.031.337 14.927 6.943 18.486 6.636 3.556 14.846 1.653 19.233-4.395l240-331c3.325-4.556 3.794-10.591 1.245-15.63-2.563-5.024-7.734-8.188-13.374-8.188h-63.501l76.362-128.28c2.784-4.643 2.857-10.414.191-15.116z" />
+              </g>
+            </svg>
+            Энергетика
+          </a>
+          <div class="megamenu-content" aria-labelledby="megamenu-dropdown-3">
+            <div class="container-xxl pt-3">
+              <div class="row pb-5">
+                <div class="col border-end">
+                  <div class="card h-100">
+                    <img src="assets/images/product/13.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <a href="">Труба ПВХ гофрированная</a>
+                        </h5>
+                      <p class="card-text">Гофрированная труба – это современное изделие полимерного производства, которое
+                        состоит из внешнего и внутреннего слоя. Первый слой — это гофрированный ПНД (полиэтилен низкого
+                        давления), защищающий трубу от повреждений. Второй слой — это полиэтилен высокого давления, он
+                        изготавливается абсолютно гладким.</p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="" class="btn__details">
+                        Подробнее
+                        <svg width="37" height="12" viewBox="0 0 37 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0 11.5H34.5L19 0.5" stroke="#737373"/>
+                          </svg>
+                          
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col border-end">
+                  <div class="card h-100">
+                    <img src="assets/images/product/13.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <a href="">Труба ПВХ гофрированная</a>
+                        </h5>
+                      <p class="card-text">Гофрированная труба – это современное изделие полимерного производства, которое
+                        состоит из внешнего и внутреннего слоя. Первый слой — это гофрированный ПНД (полиэтилен низкого
+                        давления), защищающий трубу от повреждений. Второй слой — это полиэтилен высокого давления, он
+                        изготавливается абсолютно гладким.</p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="" class="btn__details">
+                        Подробнее
+                        <svg width="37" height="12" viewBox="0 0 37 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0 11.5H34.5L19 0.5" stroke="#737373"/>
+                          </svg>
+                          
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col border-end">
+                  <div class="card h-100">
+                    <img src="assets/images/product/14.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <a href="">Кабель силовой</a>
+                        </h5>
+                      <p class="card-text">Силовой кабель — кабель для передачи электроэнергии токами промышленных частот.
+                        В практическом смысле подразумевается кабель для передачи трехфазного тока от ГРЩ ВРУ промышленных
+                        предприятий, коммунальных и прочих объектов к потребителям электроэнергии
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="" class="btn__details">
+                        Подробнее
+                        <svg width="37" height="12" viewBox="0 0 37 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0 11.5H34.5L19 0.5" stroke="#737373"/>
+                          </svg>
+                          
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col border-end">
+                  <div class="card h-100">
+                    <img src="assets/images/product/15.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <a href="">Кабель силовой</a>
+                        </h5>
+                      <p class="card-text">Силовой кабель — кабель для передачи электроэнергии токами промышленных частот.
+                        В практическом смысле подразумевается кабель для передачи трехфазного тока от ГРЩ ВРУ промышленных
+                        предприятий, коммунальных и прочих объектов к потребителям электроэнергии</p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="" class="btn__details">
+                        Подробнее
+                        <svg width="37" height="12" viewBox="0 0 37 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0 11.5H34.5L19 0.5" stroke="#737373"/>
+                          </svg>
+                          
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="assets/images/product/16.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <a href=""> Кабель силовой</a>
+                       </h5>
+                      <p class="card-text">Силовой кабель — кабель для передачи электроэнергии токами промышленных частот.
+                        В практическом смысле подразумевается кабель для передачи трехфазного тока от ГРЩ ВРУ промышленных
+                        предприятий, коммунальных и прочих объектов к потребителям электроэнергии</p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="" class="btn__details">
+                        Подробнее
+                        <svg width="37" height="12" viewBox="0 0 37 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0 11.5H34.5L19 0.5" stroke="#737373"/>
+                          </svg>
+                          
+                      </a>
+                    </div>
+                  </div>
+                </div>
+  
+              </div>
+  
+  
+            </div>
+          </div>
+        </li>
+        <li class="nav-item is-parent">
+          <a class="nav-link" href="#" id="megamenu-dropdown-4" aria-haspopup="true" aria-expanded="false">
+            <svg class="nav-icons" height="20px" viewBox="0 -43 512.001 512" fill="currentColor" width="20px"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="m224.804688 294.34375c-10.726563-8.011719-24.074219-17.980469-49.144532-17.980469-25.066406 0-38.414062 9.96875-49.140625 17.980469-9.339843 6.976562-16.089843 12.019531-31.191406 12.019531-15.097656 0-21.847656-5.042969-31.1875-12.019531-10.726563-8.011719-24.074219-17.984375-49.140625-17.984375-8.285156 0-15 6.71875-15 15 0 8.285156 6.714844 15 15 15 15.097656 0 21.847656 5.042969 31.1875 12.019531 10.726562 8.011719 24.078125 17.980469 49.144531 17.980469 25.066407 0 38.414063-9.96875 49.140625-17.980469 9.339844-6.976562 16.089844-12.019531 31.1875-12.019531 15.101563 0 21.851563 5.042969 31.191406 12.019531 10.726563 8.011719 24.074219 17.980469 49.140626 17.980469 4.675781 0 8.945312-.347656 12.863281-.960937.378906.027343.757812.054687 1.144531.054687 2.683594 0 5.195312-.710937 7.375-1.945313 12.238281-3.542968 20.589844-9.773437 27.761719-15.128906 9.339843-6.976562 16.089843-12.019531 31.1875-12.019531 15.101562 0 21.851562 5.042969 31.195312 12.019531 9.769531 7.296875 21.71875 16.214844 42.707031 17.75.902344.167969 1.824219.265625 2.773438.265625.433594 0 .855469-.027343 1.28125-.0625.78125.019531 1.574219.03125 2.382812.03125 25.066407 0 38.417969-9.972656 49.144532-17.984375 9.339844-6.976562 16.089844-12.015625 31.191406-12.015625 8.285156 0 15-6.71875 15-15 0-8.285156-6.714844-15-15-15-25.066406 0-38.417969 9.96875-49.144531 17.980469-6.617188 4.941406-11.949219 8.902344-19.855469 10.796875v-31.777344c0-63.308593-24.652344-122.824219-69.414062-167.585937-44.765626-44.765625-104.28125-69.417969-167.585938-69.417969h-17.539062v-21.359375c0-8.285156-6.714844-15-15-15h-39.089844c-20.214844 0-37.355469 13.398438-43.015625 31.78125h-61.007813c-8.285156 0-15 6.71875-15 15 0 8.285156 6.714844 15 15 15h59.023438v97.128906h-59.023438c-8.285156 0-15 6.71875-15 15 0 8.285156 6.714844 15 15 15h61.007813c5.660156 18.382813 22.800781 31.785156 43.015625 31.785156h39.089844c8.285156 0 15-6.71875 15-15v-23.097656c17.34375 2.769532 34.53125 10.121094 47.988281 20.851563 22.261719 17.753906 33.550781 43.125 33.550781 75.410156v27.480469c-14.390625-.222656-21.066406-5.179688-30.195312-11.996094zm-81.34375-103.648438h-24.089844c-8.269532 0-15-6.730468-15-15v-130.695312c0-8.269531 6.730468-15 15-15h24.089844zm96.6875-10.703124c-18.59375-14.824219-42.695313-24.710938-66.6875-27.6875v-85.945313h17.539062c114.140625 0 207 92.859375 207 207v29.171875c-4.351562-2.097656-8.160156-4.925781-12.527344-8.1875-10.730468-8.011719-24.078125-17.984375-49.148437-17.984375-25.066407 0-38.414063 9.972656-49.140625 17.984375-.746094.554688-1.46875 1.09375-2.183594 1.621094v-17.105469c0-52.160156-24.390625-82.554687-44.851562-98.867187zm0 0" />
+              <path
+                d="m497 366.359375c-25.066406 0-38.417969 9.972656-49.144531 17.980469-9.339844 6.980468-16.089844 12.019531-31.191407 12.019531-15.101562 0-21.851562-5.039063-31.191406-12.015625-10.730468-8.011719-24.078125-17.984375-49.148437-17.984375-25.066407 0-38.414063 9.972656-49.140625 17.984375-9.339844 6.976562-16.089844 12.015625-31.191406 12.015625-15.097657 0-21.847657-5.039063-31.1875-12.015625-10.726563-8.011719-24.074219-17.984375-49.144532-17.984375-25.066406 0-38.414062 9.972656-49.140625 17.984375-9.339843 6.976562-16.089843 12.015625-31.191406 12.015625-15.097656 0-21.847656-5.039063-31.1875-12.015625-10.726563-8.011719-24.074219-17.984375-49.140625-17.984375-8.285156 0-15 6.71875-15 15 0 8.285156 6.714844 15 15 15 15.097656 0 21.847656 5.042969 31.1875 12.019531 10.726562 8.011719 24.078125 17.980469 49.144531 17.980469 25.066407 0 38.414063-9.96875 49.140625-17.980469 9.339844-6.976562 16.089844-12.019531 31.1875-12.019531 15.101563 0 21.851563 5.042969 31.191406 12.019531 10.726563 8.011719 24.074219 17.980469 49.140626 17.980469 25.066406 0 38.417968-9.96875 49.144531-17.980469 9.339843-6.976562 16.089843-12.019531 31.1875-12.019531 15.101562 0 21.851562 5.042969 31.195312 12.019531 10.726563 8.011719 24.074219 17.980469 49.144531 17.980469 25.066407 0 38.414063-9.96875 49.144532-17.980469 9.339844-6.976562 16.089844-12.019531 31.191406-12.019531 8.285156 0 15-6.714844 15-15 0-8.28125-6.714844-15-15-15zm0 0" />
+            </svg>
+            Канализация
+          </a>
+          <div class="megamenu-content" aria-labelledby="megamenu-dropdown-4">
+            <div class="container-xxl pt-3">
+              <div class="row pb-5">
+                <div class="col border-end">
+                  <div class="card h-100">
+                    <img src="assets/images/product/09.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <a href="">Трубы для систем внутренней канализации</a>
+                        </h5>
+                      <p class="card-text">Трубопровод – это трасса из труб разного диаметра и длины, которые уложены под
+                        уклоном. Колодцы – это сооружения которые разделяют по назначению.</p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="" class="btn__details">
+                        Подробнее
+                        <svg width="37" height="12" viewBox="0 0 37 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0 11.5H34.5L19 0.5" stroke="#737373"/>
+                          </svg>
+                          
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col border-end">
+                  <div class="card h-100">
+                    <img src="assets/images/product/09.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <a href="">Трубы для систем внутренней канализации</a>
+                        </h5>
+                      <p class="card-text">Трубопровод – это трасса из труб разного диаметра и длины, которые уложены под
+                        уклоном. Колодцы – это сооружения которые разделяют по назначению.</p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="" class="btn__details">
+                        Подробнее
+                        <svg width="37" height="12" viewBox="0 0 37 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0 11.5H34.5L19 0.5" stroke="#737373"/>
+                          </svg>
+                          
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col border-end">
+                  <div class="card h-100">
+                    <img src="assets/images/product/10.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <a href="">Трубы для систем внутренней канализации</a>
+                        </h5>
+                      <p class="card-text">Трубопровод – это трасса из труб разного диаметра и длины, которые уложены под
+                        уклоном. Колодцы – это сооружения которые разделяют по назначению.
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="" class="btn__details">
+                        Подробнее
+                        <svg width="37" height="12" viewBox="0 0 37 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0 11.5H34.5L19 0.5" stroke="#737373"/>
+                          </svg>
+                          
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col border-end">
+                  <div class="card h-100">
+                    <img src="assets/images/product/11.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <a href="">Тройник канализационный</a>
+                        </h5>
+                      <p class="card-text">Они представляют собой специальные устройства, использующиеся с целью создания
+                        определенных разветвлений в системе трубопровода в частном доме, коттедже, квартире или каких-либо
+                        административных зданиях</p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="" class="btn__details">
+                        Подробнее
+                        <svg width="37" height="12" viewBox="0 0 37 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0 11.5H34.5L19 0.5" stroke="#737373"/>
+                          </svg>
+                          
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="assets/images/product/12.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <a href="">Отвод канализационный</a>
+                       </h5>
+                      <p class="card-text">Один из необходимых элементов для сборки – это канализационный отвод — фасонное
+                        изделие, которое используется для поворота трубы на определённый угол.</p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="" class="btn__details">
+                        Подробнее
+                        <svg width="37" height="12" viewBox="0 0 37 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0 11.5H34.5L19 0.5" stroke="#737373"/>
+                          </svg>
+                          
+                      </a>
+                    </div>
+                  </div>
+                </div>
+  
+              </div>
+  
+  
+            </div>
+          </div>
+        </li>
+        <li class="nav-item is-parent">
+          <a class="nav-link" href="#" id="megamenu-dropdown-5" aria-haspopup="true" aria-expanded="false">
+            <svg class="nav-icons" fill="currentColor" enable-background="new 0 0 512.027 512.027" height="20" viewBox="0 0 512.027 512.027"
+              width="20" xmlns="http://www.w3.org/2000/svg">
+              <g>
+                <path
+                  d="m511.485 342.829c-8.76-53.206-30.558-126.731-83.905-194.233l34.203-34.203c2.813-2.812 4.394-6.628 4.394-10.606s-1.58-7.794-4.394-10.606l-42.935-42.935c-2.812-2.813-6.628-4.394-10.606-4.394s-7.794 1.58-10.606 4.394l-34.203 34.203c-67.502-53.348-141.027-75.146-194.234-83.906-18.073-2.982-34.685 6.51-41.33 23.604-6.663 17.138-.807 35.397 14.571 45.438 45.088 29.438 89.382 64.24 132.119 103.736l-261.341 261.343c-8.523 8.522-13.217 19.854-13.217 31.907s4.694 23.385 13.225 31.916l.323.323c8.523 8.523 19.855 13.217 31.908 13.217s23.385-4.693 31.908-13.217l261.342-261.341c39.495 42.737 74.297 87.031 103.736 132.119 7.277 11.147 18.872 17.29 31.229 17.29 4.691 0 9.493-.886 14.209-2.719 17.094-6.646 26.579-23.255 23.604-41.33zm-34.475 13.368c-1.794.699-6.307 1.803-9.448-3.01-38.153-58.437-84.945-115.513-139.077-169.644-54.133-54.132-111.209-100.924-169.643-139.077-4.812-3.142-3.708-7.654-3.011-9.448.764-1.965 2.631-5.013 6.863-5.013.509 0 1.053.044 1.632.14 57.957 9.542 141.754 35.628 211.841 105.716 70.088 70.087 96.174 153.885 105.716 211.841.889 5.398-2.672 7.639-4.873 8.495zm-68.769-274.132 21.722 21.722-21.937 21.937c-3.441-3.722-6.986-7.416-10.646-11.076s-7.354-7.205-11.076-10.646zm-250.239 293.683-21.722-21.721 100.224-100.224 21.722 21.721zm-101.85 101.849c-2.857 2.856-6.655 4.43-10.695 4.43s-7.838-1.573-10.703-4.438l-.323-.323c-2.857-2.856-4.43-6.655-4.43-10.695s1.573-7.838 4.43-10.694l80.637-80.637 21.722 21.721zm223.286-223.286-21.722-21.721 38.618-38.618c3.658 3.563 7.306 7.152 10.937 10.784s7.221 7.28 10.784 10.938z" />
+              </g>
+            </svg>
+            Добыча
+          </a>
+          <div class="megamenu-content" aria-labelledby="megamenu-dropdown-5">
+            <div class="container-xxl pt-3">
+              <div class="row pb-5">
+                <div class="col border-end">
+                  <div class="card h-100">
+                    <img src="assets/images/product/17.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <a href="">Добыча угля</a>
+                        </h5>
+                      <p class="card-text">Горная добыча угля - это практика открытой добычи, включающая удаление горных
+                        вершин, чтобы обнажить угольные пласты, и удаление связанной с ними вскрыши в прилегающих
+                        «засыпках долины».</p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="" class="btn__details">
+                        Подробнее
+                        <svg width="37" height="12" viewBox="0 0 37 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0 11.5H34.5L19 0.5" stroke="#737373"/>
+                          </svg>
+                          
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col border-end">
+                  <div class="card h-100">
+                    <img src="assets/images/product/17.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <a href="">Добыча угля</a>
+                        </h5>
+                      <p class="card-text">Горная добыча угля - это практика открытой добычи, включающая удаление горных
+                        вершин, чтобы обнажить угольные пласты, и удаление связанной с ними вскрыши в прилегающих
+                        «засыпках долины».</p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="" class="btn__details">
+                        Подробнее
+                        <svg width="37" height="12" viewBox="0 0 37 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0 11.5H34.5L19 0.5" stroke="#737373"/>
+                          </svg>
+                          
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col border-end">
+                  <div class="card h-100">
+                    <img src="assets/images/product/18.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <a href="">Добыча угля</a>
+                      </h5>
+                      <p class="card-text">Горная добыча угля - это практика открытой добычи, включающая удаление горных
+                        вершин, чтобы обнажить угольные пласты, и удаление связанной с ними вскрыши в прилегающих
+                        «засыпках долины».
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="" class="btn__details">
+                        Подробнее
+                        <svg width="37" height="12" viewBox="0 0 37 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0 11.5H34.5L19 0.5" stroke="#737373"/>
+                          </svg>
+                          
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col border-end">
+                  <div class="card h-100">
+                    <img src="assets/images/product/19.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <a href="">Добыча угля</a>
+                      </h5>
+                      <p class="card-text">Горная добыча угля - это практика открытой добычи, включающая удаление горных
+                        вершин, чтобы обнажить угольные пласты, и удаление связанной с ними вскрыши в прилегающих
+                        «засыпках долины».</p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="" class="btn__details">
+                        Подробнее
+                        <svg width="37" height="12" viewBox="0 0 37 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0 11.5H34.5L19 0.5" stroke="#737373"/>
+                          </svg>
+                          
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="assets/images/product/20.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <a href="">Добыча угля</a>
+                      </h5>
+                      <p class="card-text">Горная добыча угля - это практика открытой добычи, включающая удаление горных
+                        вершин, чтобы обнажить угольные пласты, и удаление связанной с ними вскрыши в прилегающих
+                        «засыпках долины».</p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="" class="btn__details">
+                        Подробнее
+                        <svg width="37" height="12" viewBox="0 0 37 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0 11.5H34.5L19 0.5" stroke="#737373"/>
+                          </svg>
+                          
+                      </a>
+                    </div>
+                  </div>
+                </div>
+  
+              </div>
+  
+  
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div class="megamenu-background" id="megamenu-background"></div>
+    </nav>
+</div>
+
+  <div class="megamenu-dim" id="megamenu-dim"></div>
+</header>
+
+  <div class="content min-vh-100">
+    <section class="documentation bg-white">
+      <div class="container-xxl">
+        <div class="documentation__wrap">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Главная</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Документация</li>
+            </ol>
+          </nav>
+          <div class="row">
+            <div class="col">
+              <div class="title__wrap " >
+                <div class="title__line aos-init aos-animate" data-aos="line" data-aos-once="true"></div>
+                <h1 class="title" data-aos="fade-left" data-aos-once="true">Вода</h1>
+              </div>
+            </div>
+          </div>
+
+  
+        </div>
+
+   
+      
+      </div>
+
+
+    </section>
+
+    <section class="mt-5">
+      <div class="container-xxl">
+        <div class="">
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">
+            Модальное окно со скроллом
+          </button>
+
+        <div class="modal modal__scroll fade" id="modal" tabindex="-1" aria-labelledby="modalTitle" style="display: none;" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalTitle">Документы</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>What follows is just some placeholder text for this modal dialog. You just gotta ignite the light and let it shine! Come just as you are to me. Just own the night like the 4th of July. Infect me with your love and fill me with your poison. Come just as you are to me. End of the rainbow looking treasure.</p>
+                <p>I can't sleep let's run away and don't ever look back, don't ever look back. I can't sleep let's run away and don't ever look back, don't ever look back. Yes, we make angels cry, raining down on earth from up above. I'm walking on air (tonight). Let you put your hands on me in my skin-tight jeans. Stinging like a bee I earned my stripes. I went from zero, to my own hero. Even brighter than the moon, moon, moon. Make 'em go, 'Aah, aah, aah' as you shoot across the sky-y-y! Why don't you let me stop by?</p>
+                <p>Boom, boom, boom. Never made me blink one time. Yeah, you're lucky if you're on her plane. Talk about our future like we had a clue. Oh my God no exaggeration. You're original, cannot be replaced. The girl's a freak, she drive a jeep in Laguna Beach. It's no big deal, it's no big deal, it's no big deal. In another life I would make you stay. I'm ma get your heart racing in my skin-tight jeans. I wanna walk on your wave length and be there when you vibrate Never made me blink one time.</p>
+                <p>We'd keep all our promises be us against the world. In another life I would be your girl. We can dance, until we die, you and I, will be young forever. And on my 18th Birthday we got matching tattoos. So open up your heart and just let it begin. 'Cause she's the muse and the artist. She eats your heart out. Like Jeffrey Dahmer (woo). Pop your confetti. (This is how we do) I know one spark will shock the world, yeah yeah. If you only knew what the future holds.</p>
+                <p>Sipping on Rosé, Silver Lake sun, coming up all lazy. It’s in the palm of your hand now baby. So we hit the boulevard. So make a wish, I'll make it like your birthday everyday. Do you ever feel already buried deep six feet under? It's time to bring out the big balloons. You could've been the greatest. Passport stamps, she's cosmopolitan. Your kiss is cosmic, every move is magic.</p>
+                <p>We're living the life. We're doing it right. Open up your heart. I was tryna hit it and quit it. Her love is like a drug. Always leaves a trail of stardust. The girl's a freak, she drive a jeep in Laguna Beach. Fine, fresh, fierce, we got it on lock. All my girls vintage Chanel baby.</p>
+                <p>Before you met me I was alright but things were kinda heavy. Peach-pink lips, yeah, everybody stares. This is no big deal. Calling out my name. I could have rewrite your addiction. She's got that, je ne sais quoi, you know it. Heavy is the head that wears the crown. 'Cause, baby, you're a firework. Like thunder gonna shake the ground.</p>
+                <p>Just own the night like the 4th of July! I’m gon’ put her in a coma. What you're waiting for, it's time for you to show it off. Can't replace you with a million rings. You open my eyes and I'm ready to go, lead me into the light. And here you are. I’m gon’ put her in a coma. Come on, let your colours burst. So cover your eyes, I have a surprise. As I march alone to a different beat. Glitter all over the room pink flamingos in the pool.</p>
+              </div>
+     
+            </div>
+          </div>
+        </div>
+
+        </div>
+
+        <div class="mt-4">
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalTwo">
+            Модальное окно форма
+          </button>
+  
+          <div class="modal modal__feedback fade" id="modalTwo" tabindex="-1" aria-labelledby="modalTwoTitle" style="display: none;" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalTwoTitle">Обратная связь</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="inputName1" class="form-label">Имя</label>
+                      <input type="text" class="form-control" id="inputName1">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputName2" class="form-label">Фамилия</label>
+                      <input type="text" class="form-control" id="inputName2">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputPhone" class="form-label">Телефон</label>
+                      <input type="tel" class="form-control" id="inputPhone">
+                    </div>
+                    <div class="col-12">
+                      <label for="exampleFormControlTextarea1" class="form-label">Сообщение</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary">Отправить</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+
+ 
+
+
+  </div>
+
+  <footer class="footer">
+    <div class="container-xxl">
+      <div class="footer__top border-bottom">
+        <div class="footer__logo me-3">
+          <img src="assets/images/logo-01.png" alt="">
+          <span>РемГазКоммуникации</span>
+        </div>
+
+        <div class="footer__phone me-2">
+          <div class="footer__wrap-icons me-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" class="bi bi-telephone"
+              viewBox="0 0 16 16">
+              <path
+                d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z">
+              </path>
+            </svg>
+          </div>
+          <a href="tel:+78435900700"> +7 (843) 590-07-00 </a>
+        </div>
+        <div class="footer__mail me-3">
+          <div class="footer__wrap-icons me-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" class="bi bi-envelope"
+              viewBox="0 0 16 16">
+              <path
+                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z">
+              </path>
+            </svg>
+          </div>
+          <a href="mailto:info@rem-gas.ru">info@rem-gas.ru</a>
+        </div>
+
+
+        <div class="footer__social-wrap">
+          <div class="footer__social">
+            <a href="" class="footer__social-link me-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" class="bi bi-instagram"
+                viewBox="0 0 16 16">
+                <path
+                  d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z">
+                </path>
+              </svg>
+            </a>
+            <a href="" class="footer__social-link me-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" class="bi bi-youtube"
+                viewBox="0 0 16 16">
+                <path
+                  d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.122C.002 7.343.01 6.6.064 5.78l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z">
+                </path>
+              </svg>
+            </a>
+
+          </div>
+          <button class="btn btn__request">Оставить заявку</button>
+        </div>
+      </div>
+      <div class="footer__list">
+        <div class="row">
+          <div class="footer__item">
+            <h5 class="footer__title">
+              Вода
+            </h5>
+            <ul class="ps-0">
+              <li><a href="">Подкатегория 1 </a></li>
+              <li><a href="">Подкатегория 2 </a></li>
+              <li><a href="">Подкатегория 3 </a></li>
+              <li><a href="">Подкатегория 4 </a></li>
+              <li><a href="">Подкатегория 5 </a></li>
+              <li><a href="">Подкатегория 6 </a></li>
+            </ul>
+          </div>
+          <div class="footer__item">
+            <h5 class="footer__title">
+              Газ
+            </h5>
+            <ul class="ps-0">
+              <li><a href="">Подкатегория 1 </a></li>
+              <li><a href="">Подкатегория 2 </a></li>
+              <li><a href="">Подкатегория 3 </a></li>
+              <li><a href="">Подкатегория 4 </a></li>
+              <li><a href="">Подкатегория 5 </a></li>
+              <li><a href="">Подкатегория 6 </a></li>
+            </ul>
+          </div>
+          <div class="footer__item">
+            <h5 class="footer__title">
+              Энергетика
+            </h5>
+            <ul class="ps-0">
+              <li><a href="">Подкатегория 1 </a></li>
+              <li><a href="">Подкатегория 2 </a></li>
+              <li><a href="">Подкатегория 3 </a></li>
+              <li><a href="">Подкатегория 4 </a></li>
+              <li><a href="">Подкатегория 5 </a></li>
+              <li><a href="">Подкатегория 6 </a></li>
+            </ul>
+          </div>
+          <div class="footer__item">
+            <h5 class="footer__title">
+              Канализация
+            </h5>
+            <ul class="ps-0">
+              <li><a href="">Подкатегория 1 </a></li>
+              <li><a href="">Подкатегория 2 </a></li>
+              <li><a href="">Подкатегория 3 </a></li>
+              <li><a href="">Подкатегория 4 </a></li>
+              <li><a href="">Подкатегория 5 </a></li>
+              <li><a href="">Подкатегория 6 </a></li>
+            </ul>
+          </div>
+          <div class="footer__item">
+            <h5 class="footer__title">
+              Добыча
+            </h5>
+            <ul class="ps-0">
+              <li><a href="">Подкатегория 1 </a></li>
+              <li><a href="">Подкатегория 2 </a></li>
+              <li><a href="">Подкатегория 3 </a></li>
+              <li><a href="">Подкатегория 4 </a></li>
+              <li><a href="">Подкатегория 5 </a></li>
+              <li><a href="">Подкатегория 6 </a></li>
+            </ul>
+          </div>
+          <div class="footer__item">
+            <h5 class="footer__title">
+              О компании
+            </h5>
+            <ul class="ps-0">
+              <li><a href="">Подкатегория 1 </a></li>
+              <li><a href="">Подкатегория 2 </a></li>
+              <li><a href="">Подкатегория 3 </a></li>
+              <li><a href="">Подкатегория 4 </a></li>
+              <li><a href="">Подкатегория 5 </a></li>
+              <li><a href="">Подкатегория 6 </a></li>
+            </ul>
+          </div>
+          <div class="footer__item">
+            <h5 class="footer__title">
+              Документация
+            </h5>
+            <ul class="ps-0">
+              <li><a href="">Подкатегория 1 </a></li>
+              <li><a href="">Подкатегория 2 </a></li>
+              <li><a href="">Подкатегория 3 </a></li>
+              <li><a href="">Подкатегория 4 </a></li>
+              <li><a href="">Подкатегория 5 </a></li>
+              <li><a href="">Подкатегория 6 </a></li>
+            </ul>
+          </div>
+          <div class="footer__item">
+            <h5 class="footer__title">
+              Логистика
+            </h5>
+            <ul class="ps-0">
+              <li><a href="">Подкатегория 1 </a></li>
+              <li><a href="">Подкатегория 2 </a></li>
+              <li><a href="">Подкатегория 3 </a></li>
+              <li><a href="">Подкатегория 4 </a></li>
+              <li><a href="">Подкатегория 5 </a></li>
+              <li><a href="">Подкатегория 6 </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright border-top">
+        © 2021 Все права защищены.
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/1.9.0/jquery.hoverIntent.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.min.js'></script>
+  <script src="js/index.js"></script>
+  <script src="assets/lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/lib/swiper/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 900,
+      debounceDelay: 50,
+    });
+  </script>
+</body>
+
+
+
+</html>

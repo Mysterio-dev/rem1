@@ -1,0 +1,211 @@
+
+$dark: #1b193e;
+$white: #ffffff;
+
+
+
+
+.header {
+    background-color: #fff;
+    &__contacts {
+        display: flex;
+    }
+
+    &__wrappers {
+        transition: all 0.5s ease; 
+    }
+
+    &__wrappers.active {
+        margin-top: -212px; 
+    }
+
+    &__navbar {
+        font-size: 13px;
+        background: #FAFAFA;
+    }
+
+    &__navbar .navbar-brand {
+        font-weight: 700;
+        display: none;
+    }
+
+    &__navbar .dropdown-menu {
+        border-radius: 0;
+        border: 0;
+        font-size: 13px;
+        box-shadow: 0 6px 12px rgba(0,0,0,.175);
+        margin: 0;
+    }
+
+    &__navbar .dropdown-item:hover {
+        background-color: $dark;
+        color: $white;
+    }
+
+
+    &__navbar .dropdown-item.active {
+        background-color: $dark;
+    }
+    
+
+    &__wrap-icons {
+        background-color: $dark;
+        padding: 7px;
+        border-radius: 50%;
+        display: flex;
+    }
+
+    &__wrap-icons svg {
+        color: #fff;
+    }
+
+    &__social-link {
+        height: 37px;
+        width: 37px;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #EEF3F8;
+    }
+
+    &__phone {
+        margin-right: 15px;
+    }
+
+    &__phone,
+    &__mail {
+        display: flex;
+        align-items: center;
+    }
+    
+
+    &__social {
+        display: flex;
+    }
+
+    &__social-link {
+        margin-right: 12px;
+    }
+
+    &__social-link:last-child {
+        margin-right: 20px;
+    }
+
+    &__social-link svg {
+        color: $dark
+    }
+
+    &__phone a,
+    &__mail a {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.55);
+        margin-left: 5px;
+        &:hover {
+            color: #222133;
+        }
+    }
+
+    &__inner {
+        display: flex;
+        align-items: center;
+    }
+
+    &__inner .btn-request {
+        border: 2px solid $dark;
+        border-radius: 0;
+        font-size: 14px;
+        color: #222133;
+        &:hover {
+            background-color: $dark;
+            color: $white;
+        }
+
+    }
+
+    &__inner .btn:focus {
+        box-shadow: none;
+    }
+
+    &__logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 0;
+        background: url('../assets/svg/bg.svg') no-repeat;
+        background-size: cover;
+        
+       
+    }
+
+    &__logo img {
+        max-width: 80px;
+        width: 100%;
+    }
+
+    &__logo span {
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .accordion-button {
+        border: 0;
+        border-radius: 0!important;
+        padding: 10px 0;
+        font-size: 13px;
+        color: rgba(0, 0, 0, 0.55);
+    }
+
+    .accordion-button svg {
+        margin-right: 5px;
+    }
+
+
+    .accordion-button:not(.collapsed) {
+        background-color: transparent;
+    }
+
+    .accordion-button::after {
+        width: 0.8rem;
+        height: 0.8rem;
+        background-size: contain;
+    }
+
+
+
+    .accordion-button:focus {
+        box-shadow: none;
+    }
+
+    .accordion-collapse {
+        border: 0;
+    }
+
+    .accordion-body li {
+        list-style: none;
+        padding: 5px 0;
+    }
+
+    .accordion-button:not(.collapsed) {
+        color: #1b193e;
+    }
+
+    .accordion-body li a {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.55);
+        &:hover {
+            color: #1b193e;
+        }
+
+    }
+
+    
+    
+}
+
+
+
+.main {
+	position: relative;
+	top: 59px;
+}

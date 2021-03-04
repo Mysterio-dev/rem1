@@ -1,0 +1,28 @@
+.news {
+    &__inner {
+        background-color: #fff;
+        padding: calc(20px + (50 - 20) * ((100vw - 320px) / (1920 - 320)));
+    }
+
+    &__wrap .list-group{
+        border-radius: 0;
+    }
+
+    &__wrap .list-group-item {
+        border: 0;
+        margin-bottom: 20px;
+    }
+
+    &__wrap .data {
+        font-size: 14px;
+    }
+
+    &__wrap h6 {
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    &__wrap p {
+        font-size: 14px;
+    }
+}

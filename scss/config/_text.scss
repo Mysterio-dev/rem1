@@ -1,0 +1,82 @@
+$maxWidth: 1920;
+
+@mixin adaptiv-font($pcSize, $mobSize) {
+    $addSize: $pcSize - $mobSize;
+    $addMobSize: $addSize + $addSize * 0.7;
+    @media (max-width: 768px) {
+        font-size: calc(#{$mobSize + px} + #{$addMobSize} * ((100vw - 320px) / #{$maxWidth}));
+    }
+    @media (min-width: 768px) {
+        font-size: calc(#{$mobSize + px} + #{$addSize} * (100vw / #{$maxWidth}));
+    }
+}
+
+.title {
+    @include adaptiv-font(35, 25);
+    font-weight: 600;
+    z-index: 1;
+    position: relative;
+    &__wrap {
+        position: relative;
+        display: inline-block;
+    }
+
+    &__line {
+        height: 10px;
+        background-color: #DAE6F2;
+        position: absolute;
+        bottom: 0.9rem;
+        left: 2.5rem;
+        transition: all 0.5s cubic-bezier(0.43, 0.01, 0.73, 0.37);
+        transition-duration: 0.5s;
+        transition-timing-function: cubic-bezier(0.43, 0.01, 0.73, 0.37);
+        z-index: auto;
+        width: 100%;
+    }
+
+    a { 
+        color: #212529;
+        text-decoration: none;
+    }
+}
+
+
+
+.company-progress__block .title {
+    @include adaptiv-font(55, 35);
+}
+
+.card-title {
+    @include adaptiv-font(18, 13); 
+}
+
+
+.card-text {
+    @include adaptiv-font(14, 13); 
+}
+
+.features__title {
+    @include adaptiv-font(22, 16); 
+}
+
+.features__item-inner .text {
+    @include adaptiv-font(16, 14); 
+}
+
+.company-progress__text {
+    @include adaptiv-font(18, 15); 
+}
+
+
+.header .header__navbar .navbar-brand {
+    @include adaptiv-font(20, 15); 
+}
+
+.project__list-wrap h6 {
+    @include adaptiv-font(16, 14); 
+}
+
+.project__list-wrap p {
+    @include adaptiv-font(14, 12); 
+}
+
